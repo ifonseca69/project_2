@@ -1,3 +1,1 @@
-creditcard.csv filter=lfs diff=lfs merge=lfs -text
-import
-*.csv filter=lfs diff=lfs merge=lfs -text
+
