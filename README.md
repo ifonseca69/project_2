@@ -48,6 +48,41 @@ According to Visa’s Spring 2024 edition of its Biannual Threats Report, pig bu
 these schemes, fraudsters search dating and social media sites for victims and create fake accounts to interact with them. The objective is to gain the victim’s trust 
 and become their “lover” or “friend”. The scammer may even pretend to be a long-lost contact of the victim.
 
+![alt text](image.png)
+![alt text](image-1.png)
+### XGBoost model achieved a high level of accuracy and a significant improvement in precision for fraud detection.
+
+- **Overall Accuracy: 0.9993026**
+- **Precision for Fraud (Class 1): 0.8**
+- **Recall for Fraud (Class 1): 0.85**
+- **f1-Score (Class 1): 0.82**
+  ![alt text](image-2.png)
+With these impressive metrics, the XGBoost model proves to be highly effective in catching fraud cases while maintaining a minimal rate of false positives. This ensures enhanced security and reliability in fraud detection.
+
+Accuracy: 0.9992813861263163
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00    112585
+           1       0.66      0.79      0.72       132
+
+    accuracy                           1.00    112717
+   macro avg       0.83      0.89      0.86    112717
+weighted avg       1.00      1.00      1.00    112717
+
+![alt text](image-3.png)
+Accuracy: 0.9987797082921727
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     34352
+           1       0.64      0.85      0.73        66
+
+    accuracy                           1.00     34418
+   macro avg       0.82      0.92      0.86     34418
+weighted avg       1.00      1.00      1.00     34418
+
+
 References
 1).  Gabriel Preda (2024) Credit Card Fraud Detection Predictive Models. https://www.kaggle.com/code/gpreda/credit-card-fraud-detection-predictive-models
 2).  Brett Cruz(2024, Jul 26) 52 Million Americans Experienced Credit Card Fraud Last Year. Securiety.org
